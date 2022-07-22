@@ -1,7 +1,7 @@
 n = int(input())
 m = 0
 c = 0
-res = list(map(int, input().split(' ')))
+r = list(map(int, input().split(' ')))
 for i in range(n):
     if m < res[i]:
         m = res[i]
